@@ -1,7 +1,7 @@
 # Stock-Market-Prices-Volatility
 This project aims to forecast stock return volatility by integrating econometric models and machine learning techniques. The initial phases focused on implementing the GARCH family of models (GARCH(1,1), GJR-GARCH, and EGARCH) to capture volatility clustering, persistence, and leverage effects.
 
-Findings from Phase 3
+## Findings from Phase 3
 
 GJR-GARCH emerged as the most effective model, achieving the lowest AIC/BIC values.
 
@@ -9,7 +9,7 @@ It successfully modeled asymmetric volatility, where negative shocks generate st
 
 Diagnostic tests confirmed model adequacy, while forecasting results showed mean-reverting volatility with high accuracy (RMSE ≈ 0.0049, MAE ≈ 0.0037).
 
-Deep Data Leakage Diagnosis
+## Deep Data Leakage Diagnosis
 
 A thorough leakage assessment was conducted to verify the reliability of cross-validation results. Key findings include:
 
